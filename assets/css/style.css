@@ -1,0 +1,443 @@
+﻿body {
+padding:0px;
+margin:0px;
+direction:ltr;
+color:#ffffff;
+font-family: 'Titillium Web', sans-serif;
+}
+.container{
+width:1100px;
+margin:0 auto;
+}
+.section{
+height:auto;
+width:100%;
+padding:50px 0px 140px 0px;
+box-sizing:border-box;
+}
+.heroSection {
+background: #87509c;
+}
+.logo{
+float:left;
+width:50%;
+}
+.menu{
+float:right;
+width:50%;
+}
+.menu ul {
+    text-align: right;
+}
+
+.menu ul li{
+display:inline-block;
+list-style-type:none;
+margin-left:40px;
+}
+.menu ul li:first-child{
+    margin-left:0px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #d9c8d5;
+    font-size: 16px;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+.clear{
+    clear:both;
+}
+
+.heroDesc {
+    padding: 136px 0px 140px 0px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+    .heroDesc p {
+        color: #f7f3ea;
+        font-size: 42.16px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .heroDesc button {
+        text-align: center;
+        width: 290px;
+        height: 70px;
+        background: #eb7d4b;
+        border: none;
+        border-bottom: 3px solid #c86a40;
+        border-radius: 3px;
+        transition-duration: 0.2s;
+    }
+
+    .heroDesc button a {
+            text-decoration: none;
+            color: #ffffff;
+            padding: 20px 40px;
+            font-size: 13px;
+            font-weight: 700;
+        }
+        .heroDesc button:hover {
+            background: #984f2d;
+            cursor: pointer;
+            transition-duration: 0.2s;
+        }
+.servicesSection {
+    background: #17c2a4;
+}
+    .servicesSection h2 {
+        color: #ffffff;
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: 5px;
+    }
+
+    .servicesSection h4 {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        margin: 0 auto;
+        padding-left:260px;
+        padding-right:266px;
+    }
+
+    .row{
+        height:auto;
+        width:100%;
+        margin-top:70px;
+    }
+.services {
+    width: 25%;
+    float: left;
+    display: block;
+}
+
+    .services img {
+        width: 175px;
+        height: 142px;
+        text-align:center;
+        margin-left:5px;
+    }
+    .services img:first-child{
+        margin-left:0px;
+    }
+
+.services h3{
+    text-align:center;
+    font-size:24px;
+    letter-spacing:1px;
+    font-weight:600;
+
+}
+.services p{
+    font-size:20px;
+    margin-left:40px;
+    font-weight:100;
+
+}
+.services p:first-child{
+     margin-left:0px;
+ }
+
+.teamSection {
+    background: #e7f1f8;
+    color: #3c4761;
+}
+    .teamSection h2 {
+        font-size: 41.29px;
+        letter-spacing:5px;
+        text-align:center;
+
+    }
+
+    .teamSection h6 {
+        font-size: 18.58px;
+        text-align: center;
+        font-weight: 500;
+        margin-top: 40px;
+    }
+
+.team{
+    width:25%;
+    display:inline-block;
+    float:left;
+    margin-top:60px;
+}
+
+    .team img {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+    .team h3 {
+        text-align:left;
+        color: #27283d;
+        font-size: 24px;
+        font-weight:700;
+        text-transform:uppercase;
+        letter-spacing:2px;
+    }
+
+    .team h5 {
+        color: #30bae7;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .team p {
+        text-align: center;
+        margin:0 auto;
+        font-size: 16px;
+        color: #3c4761;
+        padding:10px 0;
+    }
+
+.social_networks {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.myIcon {
+    background: #bdd1df;
+    margin-right: 5px;
+}
+
+a.myIcon {
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    color: white;
+    transition-duration: 0.2s;
+}
+    a.myIcon:hover {
+        background: #54a5de;
+        transition-duration: 0.2s;
+    }
+
+.portfiloSection {
+    width: 100%;
+    height: auto;
+    background: #ffdd99;
+    padding: 114px 0px 113px 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+    .portfiloSection h1 {
+        color: #393939; 
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+
+    .portfiloSection p {
+        margin: 44px 300px 80px 280px;
+        color: #393939;
+        font-size: 18px;
+    }
+
+.portfiloIcons{
+    width:50%;
+    float:left;
+}
+    .portfiloIcons img{
+        width:540px;
+        height:317px;
+    }
+
+
+    .portfiloIcons h5 {
+        text-transform: uppercase;
+        color: #393939;
+        font-size: 18px;
+        margin-top: 27px;
+    }
+.portfiloSection button {
+    margin-top: 130px;
+    text-align: center;
+    width: 290px;
+    height: 70px;
+    background: #17c2a4;
+    border: none;
+    border-bottom: 3px solid #14a58c;
+    border-radius: 3px;
+    transition-duration: 0.2s;
+}
+
+
+
+    .portfiloSection button a {
+        text-decoration: none;
+        color: #ffffff;
+        padding: 20px 30px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .portfiloSection button:hover {
+        background: #1d7f6e;
+        cursor:pointer;
+        transition-duration: 0.2s;
+    }
+
+.peopleSection {
+    background: #d74680;
+}
+    .peopleSection h2 {
+        font-size: 40px;
+        letter-spacing: 5px;
+        font-weight: 600;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .peopleSection h4 {
+        font-size:18px;
+        text-align:center;
+        font-weight:400;
+    }
+
+.people {
+    width: 50%;
+    height:auto;
+    display: inline-block;
+    float: left;
+    margin-top: 60px;
+}
+.peopleImg {
+    float: left;
+    width: 96px;
+    box-sizing: border-box;
+    padding-top: 22px;
+}
+.peopleImg img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+
+.peopleWord {
+    float: right;
+    width: calc(100% - 96px);
+    padding-right: 0px;
+    padding-left: 45px;
+    box-sizing: border-box;
+   
+}
+
+.peopleWord p {
+
+    font-size: 21px;
+}
+
+.peopleWord h5 {
+    font-size: 24px;
+}
+
+.peopleWord h5 {
+    color: #ffdd99;
+    font-size:18px;
+}
+
+.contactSection {
+    background: #3c5499;
+}
+    .contactSection h2{
+        font-size:40px;
+        text-align:center;
+        letter-spacing:5px;
+        font-weight:600;
+    }
+    .contactSection h6{
+        font-size:18px;
+        text-align:center;
+    }
+.myInput {
+    width: 416px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 25px;
+    border: none;
+    background: #273a71;
+    border: none;
+    font-size: 18px;
+    color: #ffffff;
+}
+.txtArea {
+    border-radius: 5px;
+    padding-left: 25px;
+    border: none;
+    font-size: 18px;
+    background: #273a71;
+    color: #ffffff;
+    margin-top: 30px;
+    height: 200px;
+    width: 860px;
+}
+.submitIn {
+    text-align: center;
+    width: 290px;
+    height: 70px;
+    background: #30bae7;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 3px;
+    font-weight: 500;
+    transition-duration: 0.2s;
+    text-transform: uppercase;
+    margin-left: 40px;
+    margin-top: 60px;
+    border-bottom: 3px solid #299ec5;
+}
+
+    .submitIn:hover {
+        cursor: pointer;
+        background: #4f8b9e;
+        transition-duration: 0.2s;
+    }
+
+.contactSection form {
+    text-align: center;
+    margin-top: 30px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ffffff;
+    opacity: 1; /* Firefox */
+}
+
+
+.footerSection {
+    background: #344b8e;
+  
+}
+
+
+    .footerSection a {
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 24px;
+        margin-right: 40px;
+        transition-duration: 0.2s;
+    }
+        .footerSection a:first-child {
+            margin-left:90px;
+        }
+
+        .footerSection a:hover {
+            color: #328dc1;
+            cursor: pointer;
+            transition-duration: 0.2s;
+        }
